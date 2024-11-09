@@ -19,8 +19,8 @@ function dataGet() {
     data['laptop'] = document.getElementById('laptop').value;
     console.log(data)
 
-    data['country'] = document.getElementById('country').value;
-    data['city'] = document.getElementById('city').value;
+    data['country'] = document.getElementById('country').value = '';
+    data['city'] = document.getElementById('city').value = '';
     document.getElementById('course').value = '';
     document.getElementById('computer').value = '';
     document.getElementById('fullName').value = '';
