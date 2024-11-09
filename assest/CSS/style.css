@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.registration-heading {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.registration-heading:before {
+    background-image: url(../images/photo-1541462608143-67571c6738dd.jpeg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.heading-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.heading-container .social-icons{
+    display: flex;
+    justify-content: center;
+}
+.heading-container .social-icons div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heading-container .social-icons div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.heading-container .student-btn{
+    display: flex;
+    justify-content: center;
+}
+.heading-container .student-btn button{
+    align-items: center;
+    border-radius: 20px;
+    color: #0d6db7;
+    border-color: #0d6db7;
+    outline: none;
+    background-color: initial;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.heading-container .student-btn button::hover,
+.heading-container .student-btn button::focus{
+    background-color: #fff;
+    color: #0d6db7;
+}
+.label{
+    display: inline-block;
+    color: #0d6db7;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    border: none;
+}
+.select{
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 40px;
+    border-color: #8dc63f;
+    width: 350px;
+    display: inline-block;
+    /* background-color: #0d6db7; */
+}
+/* .container{
+    border: 1px solid red !important;
+} */
+
+@media only screen and (max-width:768px){
+    
+}
+
+@media only screen and (max-width: 992px) {
+   
+
+}
+@media only screen and (max-width:576px) {
+
+}
